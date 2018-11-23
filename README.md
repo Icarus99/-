@@ -10,3 +10,5 @@
 安装pkg-config：
     brew install pkg-config
     
+    待更新-------
+    
