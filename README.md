@@ -19,6 +19,7 @@
     
 2.运行注意事项：
     打开terminal，进入文件所在目录
+    调整terminal的分辨率！！！！！如果过小会导致显示不完整（当然可以去程序里调参数使其符合你terminal的分辨率->下面第三步）
         输入 g++ $(pkg-config --cflags --libs opencv) -std=c++11 -lncurses main1.cpp -o main1    （-lncurses 会link ncurses）
     输入./main
     
@@ -42,5 +43,9 @@ WIDTH  小于terminal x方向分辨率即可
 eg： terminal：835 * 208
     HEIGHT 应小于 193
     WIDTH 应小于  835 
+    
+FRAMERATE   没有限制，我还没测过过大会怎么样（之后更新）
+FILEPATE   视频路径
 
+        待更新～～
     
